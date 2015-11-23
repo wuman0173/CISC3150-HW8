@@ -10,6 +10,27 @@ Comments:
 
 */
 
-public class chat{
+public class chat
+{
+//main driver
+public static void main(String[] args)
+	{
+	server myserver = new server;
+	}
+
+}
+public class server
+{
+PipedWriter pipeOneWrite = new PipedWriter();
+PipedWriter pipeTwoWrite = new PipedWriter();
+PipedReader pipeOneRead = new PipedReader(pipeOneWrite);
+PipedReader pipeTwoRead = new PipedReader(pipeTwoWrite);
+}
+public class clientOne
+{
+
+}
+public class clientTwo
+{
 
 }
